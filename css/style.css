@@ -1,0 +1,58 @@
+.platforma {
+    height: 50px;
+    width: 250px;
+    display: block;
+    position: absolute;
+    background-color: dimgrey;
+    top: 200px;
+    left: 100px;
+}
+
+.wywrotka {
+    
+}
+
+.prostokat {
+    height: 150px;
+    width: 200px;
+    display: block;
+    position: absolute;
+    background-color: chocolate;
+    top: 500px;
+    left: 100px;
+}
+
+.kolo1 {
+    height: 50px;
+    width: 50px;
+    display: block;
+    position: absolute;
+    background-color: black;
+    border-radius: 100%;
+    top: 650px;
+    left: 120px;
+    
+}
+
+.kolo2 {
+    height: 50px;
+    width: 50px;
+    display: block;
+    position: absolute;
+    background-color: black;
+    border-radius: 100%;
+    top: 650px;
+    left: 230px;
+    
+}
+
+.paczka {
+    height: 80px;
+    width: 80px;
+    display: block;
+    position: absolute;
+    background-color: brown;
+    top: 420px;
+    left: 150px;
+    
+}

@@ -56,7 +56,9 @@
     position: absolute;
     background-color: brown;
     top: 410px;
-    left: 150px;
+    left: 180px;
+    animation: paczka_horizontal 5s,
+        paczka_vertical 5s;
     
 }
 
@@ -318,6 +320,52 @@
     }
     100% {
         top: 490px;
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes paczka_horizontal {
+    0% {
+        left: 150px;
+    }
+    30% {
+        left: 1120px;
+    }
+    50% {
+        left: 1120px;
+    }
+    80% {
+        left: 370px;
+    }
+    100% {
+        left: 180px;
+    }
+}
+
+@keyframes paczka_vertical {
+    0% {
+        top: 410px;
+        transform: rotate(0deg);
+    }
+    30% {
+        top: 410px;
+        transform: rotate(0deg);
+    }
+    50% {
+        top: 90px;
+        transform: rotate(0deg);
+    }
+    80% {
+        top: 90px;
+        transform: rotate(0deg);
+    }
+    90% {
+        top: 105px;
+        transform: rotate(-40deg);
+        transform-origin: left bottom;
+    }
+    100% {
+        top: 120px;
         transform: rotate(0deg);
     }
 }
